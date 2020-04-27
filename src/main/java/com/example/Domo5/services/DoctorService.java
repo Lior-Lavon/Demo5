@@ -6,5 +6,4 @@ import java.util.Set;
 
 public interface DoctorService extends CrudService<Doctor, Long>{
 
-//    Set<Doctor> getDoctors();
 }

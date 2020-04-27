@@ -3,14 +3,16 @@ package com.example.Domo5.services;
 import com.example.Domo5.modules.Doctor;
 import com.example.Domo5.repositories.DoctorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class DoctorServiceImpl implements DoctorService {
 
-    @Autowired
+//    @Autowired
     private DoctorRepository doctorRepository;
 
     public DoctorServiceImpl(DoctorRepository doctorRepository) {
